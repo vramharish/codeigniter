@@ -34,18 +34,12 @@
     </span>
   </div>
 </nav>
-    
+
 <div class="container"><br>
-    
+
     <div class="col-md-5">
     <p>Welcome to Codeigniter <b><?php echo $_SESSION['username'];?></b>...!!!!</p>
-    <?php
-    //if(isset($_SESSION['user_id']))
-    {
-        //session is set
-       //echo $_SESSION['user_id'];
-    } 
-    ?>
+     
     </div>
     <div class="col-md-3">
         <button class="btn btn-primary" onclick="myFunction()">Click here to edit profile</button>
